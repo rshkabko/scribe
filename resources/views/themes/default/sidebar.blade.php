@@ -6,7 +6,7 @@
 </a>
 <div class="tocify-wrapper">
     @if($metadata['logo'] != false)
-        <img src="{{ $metadata['logo'] }}" alt="logo" class="logo" style="padding-top: 10px;" width="100%"/>
+        <img src="{{ $metadata['logo'] }}" alt="logo" class="logo" style="margin: 20px auto 10px;" width="80%" />
     @endif
 
     @isset($metadata['example_languages'])
